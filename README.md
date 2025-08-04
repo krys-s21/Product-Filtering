@@ -4,9 +4,6 @@
 This project implements a user interface for filtering products based on properties, operators, and values. The application allows creating dynamic filters that update the product list in real-time with a single filter condition format: `[property] [operator] [value]`.
 
 ## How to Run
-
-1. **Install dependencies**
-
 This project was build with Node v23.11.0
 ```bash
 # Installation
