@@ -1,4 +1,4 @@
-# Product Filtering Condition Editor
+# Product Filtering
 
 ## Overview
 This project implements a user interface for filtering products based on properties, operators, and values. The application allows creating dynamic filters that update the product list in real-time with a single filter condition format: `[property] [operator] [value]`.
@@ -17,13 +17,9 @@ npm run dev
 
 # Testing
 npm run test
-npm run test:watch
 
 # Build for production
 npm run build
-
-# Preview production build
-npm run preview
 ```
 
 ## Development Time
@@ -262,3 +258,7 @@ Given more time, I would implement:
 8. **Internationalization**: Multi-language support
 9. **Error Handling**: Comprehensive error boundaries and user feedback
 10. **Documentation**: Storybook for component documentation
+
+
+## Final Notes
+This README file was co-written with AI.
