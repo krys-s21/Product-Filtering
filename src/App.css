@@ -1,0 +1,65 @@
+/* Main container */
+#product-filtering {
+  width: 100%;
+  padding: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+/* App header */
+.app-header {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 20px 0;
+}
+
+.app-header h1 {
+  color: #222222;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+}
+
+.app-header p {
+  color: #afafb9;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+/* Filter Panel */
+.product-filtering__filters {
+    background-color: #fafbff;
+  border: 1px solid #e1e5e9;
+  border-radius: 8px;
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+.product-filtering__filters h3 {
+  margin: 0 0 20px 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.product-filtering__filters > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.filter-controls {
+  display: flex;
+  gap: 20px;
+  align-items: end;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.filter-field {
+  display: flex;
+  flex-direction: column;
+  min-width: 180px;
+  gap: 8px;
+}
